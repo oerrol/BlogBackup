@@ -1,18 +1,18 @@
-# Hexo Configuration
+﻿# Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+title: Oerrol的博客
+subtitle: Black Sheep
+description: 西安交通大学2011级少年班，西安交通大学电信学院2017届本科毕业，华中科技大学2017级研究生在读
+author: Oerrol Song
+email: oerrol7@hotmail.com
+keywords: "自动化，WPT，Otaku"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://oerrol.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -80,3 +80,32 @@ deploy:
   type: git
   repo: git@github.com:oerrol/oerrol.github.io.git
   branch: master
+
+sitemap:
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xm
+
+feed:
+    type: atom
+    path: atom.xml
+    limit: 100
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
