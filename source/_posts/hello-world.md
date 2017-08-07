@@ -1,7 +1,8 @@
-﻿---
-
+---
+layout: post
 title: Hello World
-reward: true
+reward: false
+tags: daily
 
 ---
 
